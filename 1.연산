@@ -22,16 +22,16 @@ def plus():
 def minus():
  getnumber(a,b)
 
-  def f_minus(a,b):
+ def f_minus(a,b):
    return a-b
-  print(f_minus(a,b))
+ print(f_minus(a,b))
 
 def times():
  getnumber(a,b)
 
-  def f_times(a,b):
+ def f_times(a,b):
    return a*b
-  print(f_times(a,b))
+ print(f_times(a,b))
 
 def division():
   getnumber(a,b)
@@ -68,21 +68,19 @@ intro = int(input("고르세요: 더하기 = 0, 빼기 = 1, 곱하기 = 2, 나�
 
 def intro_select(intro):
   if intro == 0:
-    plus():
+    plus()
    
    elif intro == 1:
-     minus():
+     minus()
    
       elif intro == 2:
-        division():
+        division()
           
         elif intro == 3:
-          negation():
+          negation()
             
           elif intro == 4:
-            power():
+            power()
               
             else intro == 5:
-              reminder():
-              
-intro_select():
+              reminder()
