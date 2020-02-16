@@ -69,18 +69,21 @@ intro = int(input("고르세요: 더하기 = 0, 빼기 = 1, 곱하기 = 2, 나�
 def intro_select(intro):
   if intro == 0:
     plus()
-   
-   elif intro == 1:
-     minus()
-   
-      elif intro == 2:
-        division()
-          
-        elif intro == 3:
-          negation()
-            
-          elif intro == 4:
-            power()
-              
-            else intro == 5:
-              reminder()
+
+  elif intro == 1:
+    minus()
+
+  elif intro == 2:
+    times()
+
+  elif intro == 3:
+    division()
+
+  elif intro == 4:
+    negation()
+
+  elif intro == 5:
+    power()
+  
+  else intro == 6:
+    reminder()
