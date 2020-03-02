@@ -86,3 +86,12 @@ intro = int(input("고르세요: 더하기 = 0, 빼기 = 1, 곱하기 = 2, 나�
 
 intro_select(intro)
 
+
+"""
+*args 사용
+def plus(*args):
+  result = 0
+  for number in args:
+    result += number
+  return result
+"""
